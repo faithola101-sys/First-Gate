@@ -6,7 +6,7 @@ public class FinalScore {
 
      System.out.println("\nQUESTIONS");
 
-String [] questions = {"How many letters do we have? ", "How many state is in nigeria? ", "Who's the best player in the world? ", "Who died for the sins of the world? ", "Which country has the highest population? ", "Which country get Pound? ", "Which animal be king for jungle? ", "Which of the fish is the sea is the largest? ", "Who got the higest grammy in the world? ", "who's the richest man in the world? "};
+String [] questions = {"How many letters do we have in english ? ", "How many state is in nigeria? ", "Who's the best player in the world? ", "Who died for the sins of the world? ", "Which country has the highest population? ", "Which country get Pound? ", "Which animal be king for jungle? ", "Which of the fish is the sea is the largest? ", "Who got the higest grammy in the world? ", "who's the richest man in the world? "};
 
 
    
