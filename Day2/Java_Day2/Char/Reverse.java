@@ -1,39 +1,15 @@
 public class Reverse {
+public static void main(String[] args) {
 
+char ch = 0;
+String days = "dcbaefd";
 
-	public int totalWordGiven () {
-	
-
-		return 0;
-
-
-}
-	public String addWord(String Word){
-		
-		return "Word added successfully" ;
-
-	}
-
-	public String checkWord(String Occurrence){
-		
-		return "d" ;
-
-	}
-
-
-	public String checkedWord(String Reversed){
-	
-	String reversed = "abcdefd";
-	
-	for (int count = 0; count < 3; count--){
-		if (count <= 0){
-		return reversed;
-
-}
-
-
-}
-	return Reversed;
-}
-
+for(int i = 6; i < days.length(); i = i - 1) {
+     if(i < 0) {
+     break;
+     } 
+    ch = days.charAt(i);
+    System.out.println(ch);
+  }
+ }
 }
