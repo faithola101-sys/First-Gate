@@ -1,6 +1,18 @@
 import java.util.Scanner;
 public class QuizGame {
+
+
      public static void main(String[] args) {
+     int score = quizGame();
+
+
+
+
+    }
+
+
+     public static String quizGame() {
+
      Scanner input = new Scanner(System.in);
      
      int totalScore = 0;

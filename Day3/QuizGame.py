@@ -1,3 +1,5 @@
+def QuizGame():
+
 totalScore = 0;
 
 print(" The capital of France is? ");
@@ -50,3 +52,6 @@ else:
     
      
      print(totalScore);
+     return totalScore
+
+()QuizGame
