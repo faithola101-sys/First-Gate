@@ -1,5 +1,5 @@
 import unittest 
-from parking_system_function import parking_system, car_parked, parking_slot, available_space
+from parking_system_function import parking_system, car_parked
 
 class TestParkingSystemFunction(unittest.TestCase):
     

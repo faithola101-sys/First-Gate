@@ -9,17 +9,8 @@ def parking_system(car_parked, parking_slot):
 
 parking_slot = 20
 
-print("\t We got just 20 Parking slot here") 
-
-pick = input("\t\t\nYou go like park? (a)yes (b)no: ")
-
-for i in range(1):
-    if pick == 'a':
-         print("Oya Wole Konle")
-         car_parked = int(input("\n\t\tEnter number of car: "))
-    else:
-         print("Invalid choice.")
-         break
+car_parked = int(input("\n\t\tEnter number of car: "))
+   
    
 result = parking_system(car_parked, parking_slot)  
 
