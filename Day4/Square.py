@@ -1,21 +1,14 @@
-num = 2;
-
-square = False;
-    
-
-lists = [4,9,25,49];
-    
-   
-for i in range(len(lists)): 
-      result = lists[i];
+num = 2
+lists = [4, 9, 7, 25, 49];  
+                               
+for item in lists:      
+    result = item / num
+    isSquare = False
      
-num = result / num;
-square = False;
-     
-if num * num >= result:
-     square = True; 
-    
-num += 1;
-print(result + "." + square);
-   
+    if result * result >= item:
+     isSquare = True
  
+    num += 1
+    print(item, "=>" ,isSquare)
+   
+   
